@@ -250,7 +250,7 @@ const Card = () => (
 const Community = () => {
   return (
     <section
-      id="למה_להצטרף"
+      id="why_us"
       className="relative flex flex-col gap-10 overflow-hidden   "
     >
       <div className="absolute  lg:top-[6%] 2xl:top-[10%] w-full">

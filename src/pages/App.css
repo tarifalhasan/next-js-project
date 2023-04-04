@@ -1,0 +1,4 @@
+#why_us {
+  background-image: url(../../public/image/curve_bg.png);
+  @apply w-full h-screen bg-no-repeat bg-cover lg:min-h-[1055px] 2xl:min-h-[1200px]  xl:min-h-[1155.1px];
+}

@@ -26,8 +26,7 @@ div#__next {
   .bg_2 {
     background: linear-gradient(0deg, #001047, #001047), #001c80;
   }
-  #למה_להצטרף {
-    background-image: url(../../public/image/curve_bg.png);
+  #why_us {
     @apply w-full h-screen bg-no-repeat bg-cover lg:min-h-[1055px] 2xl:min-h-[1200px]  xl:min-h-[1155.1px];
   }
   .shadow_sm {
