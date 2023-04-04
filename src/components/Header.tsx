@@ -17,7 +17,7 @@ const Header = () => {
               <button className="btn_primary">בוגרים? הצטרפו בחינ6</button>
             </li>
             <li>
-              <Link href={'#למה_להצטרף'}>למה להצטרף</Link>
+              <Link href={'#why_us'}>למה להצטרף</Link>
             </li>
             <li>
               <Link href={'#אודות_מערך_הסייבר'}>אודות מערך הסייבר</Link>
