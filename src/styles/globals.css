@@ -13,9 +13,8 @@
   }
 }
 #why_us {
-  background-image: url(../../public/image/curve_bg.png);
+  background-image: url(/image/curve_bg.png);
 }
-
 div#__next {
   height: 100%;
 }
