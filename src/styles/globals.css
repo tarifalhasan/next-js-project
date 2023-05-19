@@ -12,20 +12,11 @@
     @apply h-full;
   }
 }
-#why_us {
-  background-image: url(/image/curve_bg.png);
-}
+
 div#__next {
   height: 100%;
 }
-.services {
-  background: url(../image/curve_bg_mobile.png);
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  min-height: 810px;
-}
+
 .mobile_navbar {
   transform: translateX(0px) !important;
   transition: 0.5s all ease !important;
@@ -54,9 +45,12 @@ div#__next {
     background: linear-gradient(0deg, #001047, #001047), #001c80;
   }
   #why_us {
-    @apply w-full h-screen bg-no-repeat bg-cover lg:min-h-[1055px] 2xl:min-h-[1200px]  xl:min-h-[1155.1px];
+    @apply w-full bg-why_us_bg h-screen bg-no-repeat bg-cover lg:min-h-[1055px] 2xl:min-h-[1200px]  xl:min-h-[1155.1px];
   }
   .shadow_sm {
     box-shadow: 0px 4px 54px rgba(0, 0, 0, 0.25);
+  }
+  .services {
+    @apply w-full h-full bg-no-repeat bg-contain min-h-[810px] bg-services_bg;
   }
 }

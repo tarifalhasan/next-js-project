@@ -17,6 +17,10 @@ module.exports = {
       colors: {
         primary: '#001767',
       },
+      backgroundImage: {
+        why_us_bg: `url('/image/curve_bg.png')`,
+        services_bg: `url('/image/curve_bg_mobile.png')`,
+      },
     },
   },
   plugins: [],
