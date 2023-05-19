@@ -10,6 +10,9 @@ import Team from '@/components/Team';
 import Events from '@/components/Events';
 import Community from '@/components/Community';
 
+import Services from '@/components/Services';
+import MobileMenu from '@/components/MobileHeader';
+
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
@@ -23,8 +26,11 @@ export default function Home() {
       </Head>
       <main>
         <Header />
+        <MobileMenu />
         <Hero />
+
         <Community />
+        <Services />
         <Events />
         <Team />
         <ConnectUs />

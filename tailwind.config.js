@@ -14,6 +14,9 @@ module.exports = {
         inter: "'Inter', sans-serif",
         openSens: "'Open Sans', sans-serif",
       },
+      colors: {
+        primary: '#001767',
+      },
     },
   },
   plugins: [],
