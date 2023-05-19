@@ -216,7 +216,7 @@ const Team = () => {
               gradientUnits="userSpaceOnUse"
             >
               <stop offset="0.458333" stopColor="#00FFF0" />
-              <stop offset="1" stop-color="#00FFF0" stopOpacity="0.04" />
+              <stop offset="1" stopColor="#00FFF0" stopOpacity="0.04" />
             </linearGradient>
           </defs>
         </svg>
