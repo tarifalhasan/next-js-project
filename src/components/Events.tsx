@@ -4,8 +4,6 @@ import Image from 'next/image';
 import e1 from '../img/e1.png';
 import e2 from '../img/e2.png';
 
-import evaint1 from '../img/event1.png';
-
 const Events = () => {
   return (
     <>
@@ -24,7 +22,7 @@ const Events = () => {
                   הרשמה
                 </button>
               </div>
-              <div className="flex pb-3  flex-col lg:flex-row gap-3 items-center">
+              <div className="flex   flex-col lg:flex-row gap-3 items-center">
                 <div className="flex px-5 lg:px-0 order-last lg:order-first gap-2 flex-col justify-end items-end">
                   <h2 className="text-xl font-bold font-openSens">
                     {data.name}

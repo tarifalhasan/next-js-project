@@ -24,7 +24,7 @@ div#__next {
   height: 100%;
   background-repeat: no-repeat;
   background-size: contain;
-  min-height: 820px;
+  min-height: 810px;
 }
 .mobile_navbar {
   transform: translateX(0px) !important;
@@ -35,6 +35,13 @@ div#__next {
 }
 .bg_gradient2 {
   background: linear-gradient(0deg, #001767, #001767), #001c80;
+}
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after,
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: 'next';
+  font-size: 36px !important;
 }
 @layer components {
   .container {

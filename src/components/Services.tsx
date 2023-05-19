@@ -6,15 +6,16 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 // import required modules
-import { FreeMode, Pagination } from 'swiper';
+import { FreeMode, Navigation } from 'swiper';
 
-import s1 from '../image/sponsars/1.png';
-import s2 from '../image/sponsars/2.png';
-import s3 from '../image/sponsars/3.png';
-import s4 from '../image/sponsars/4.png';
-import s5 from '../image/sponsars/5.png';
+import s1 from '../svg/sponsars/mobile/1.svg';
+import s2 from '../svg/sponsars/mobile/2.svg';
+import s3 from '../svg/sponsars/mobile/3.svg';
+import s4 from '../svg/sponsars/mobile/4.svg';
+import s5 from '../svg/sponsars/mobile/5.svg';
 const Services = () => {
   const sponsars = [s1, s2, s3, s4, s5];
 
@@ -39,12 +40,13 @@ const Services = () => {
           slidesPerView={3}
           spaceBetween={30}
           freeMode={true}
-          modules={[FreeMode, Pagination]}
+          navigation={true}
+          modules={[FreeMode, Navigation]}
           className="  grid-rows-1 absolute top-[13%] overflow-x-scroll grid grid-cols-4 gap-4"
         >
           {communityData.map((data, key) => (
             <SwiperSlide key={key}>
-              <Image src={data} alt="tarif" width={500} height={500} />
+              <Image src={data} className=" w-full object-cover" alt="tarif" />
             </SwiperSlide>
           ))}
         </Swiper>
