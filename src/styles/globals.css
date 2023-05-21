@@ -53,4 +53,7 @@ div#__next {
   .services {
     @apply w-full h-full bg-no-repeat bg-contain min-h-[810px] md:!min-h-[200px] bg-services_bg;
   }
+  .bg-gradient {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  }
 }

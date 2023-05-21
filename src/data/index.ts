@@ -12,9 +12,8 @@ type Events = {
 };
 type TeamMeb = {
   name: string;
-
   bio: string;
-  image: any;
+  image: string;
 };
 
 export const teamMembers: Team[] = [
@@ -48,24 +47,89 @@ export const teamMembers: Team[] = [
 import teamMeb1 from '../svg/team/1.svg';
 import teamMeb2 from '../svg/team/2.svg';
 import teamMeb3 from '../svg/team/3.svg';
+import teamMeb4 from '../svg/team/directors/1.svg';
+import teamMeb5 from '../svg/team/directors/2.svg';
+import teamMeb6 from '../svg/team/directors/3.svg';
+import teamMeb7 from '../svg/team/directors/4.svg';
+import teamMeb8 from '../svg/team/directors/5.svg';
 
-export const teamMobileData: TeamMeb[] = [
-  {
-    name: 'מתן דוברושין',
-    bio: 'מנכ”ל העמותה',
-    image: teamMeb1,
-  },
-  {
-    name: 'אסף נקש',
-    bio: 'יו”ר העמותה',
-    image: teamMeb2,
-  },
-  {
-    name: 'דני ברן',
-    bio: 'נשיא העמותה',
-    image: teamMeb3,
-  },
-];
+export const teamMobileData: {
+  management: TeamMeb[];
+  officials: TeamMeb[];
+  directors: TeamMeb[];
+} = {
+  management: [
+    {
+      name: 'מתן דוברושין',
+      bio: 'מנכ”ל העמותה',
+      image: teamMeb1,
+    },
+    {
+      name: 'אסף נקש',
+      bio: 'יו”ר העמותה',
+      image: teamMeb2,
+    },
+    {
+      name: 'דני ברן',
+      bio: 'נשיא העמותה',
+      image: teamMeb3,
+    },
+  ],
+  officials: [
+    {
+      name: 'אור אפשטיין',
+      bio: 'רכז התנדבויות',
+      image: teamMeb4,
+    },
+    {
+      name: 'שי שוורץ',
+      bio: 'מדיה ודיגיטל',
+      image: teamMeb5,
+    },
+    {
+      name: 'מתן אבוטבול',
+      bio: 'רכז התנדבויות',
+      image: teamMeb6,
+    },
+    {
+      name: 'יובל חשביה',
+      bio: 'הסברה וחינוך',
+      image: teamMeb7,
+    },
+    {
+      name: 'יוסף הרוש',
+      bio: 'מדיה וקוד פתוח',
+      image: teamMeb8,
+    },
+  ],
+  directors: [
+    {
+      name: 'אור אפשטיין',
+      bio: 'רכז התנדבויות',
+      image: teamMeb4,
+    },
+    {
+      name: 'שי שוורץ',
+      bio: 'מדיה ודיגיטל',
+      image: teamMeb5,
+    },
+    {
+      name: 'מתן אבוטבול',
+      bio: 'רכז התנדבויות',
+      image: teamMeb6,
+    },
+    {
+      name: 'יובל חשביה',
+      bio: 'הסברה וחינוך',
+      image: teamMeb7,
+    },
+    {
+      name: 'יוסף הרוש',
+      bio: 'מדיה וקוד פתוח',
+      image: teamMeb8,
+    },
+  ],
+};
 
 import img1 from '../svg/event/event1.svg';
 import img2 from '../svg/event/event2.svg';
