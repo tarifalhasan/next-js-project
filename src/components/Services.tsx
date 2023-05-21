@@ -35,14 +35,14 @@ const Services = () => {
           <Image src={s5} width={160} alt="Tarif" />
         </div>
       </div>
-      <div className=" lg:hidden services relative    py-10 ">
+      <div className=" lg:hidden services min-w-[100vw] relative    py-10 ">
         <Swiper
           slidesPerView={3}
           spaceBetween={30}
           freeMode={true}
           navigation={true}
           modules={[FreeMode, Navigation]}
-          className="  grid-rows-1 absolute top-[13%] overflow-x-scroll grid grid-cols-4 gap-4"
+          className="  grid-rows-1 absolute w-full top-[13%] md:top-[25%] overflow-x-scroll grid grid-cols-4 gap-4"
         >
           {communityData.map((data, key) => (
             <SwiperSlide key={key}>
