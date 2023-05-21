@@ -42,6 +42,9 @@ const Events = () => {
               </div>
             </div>
           ))}
+          <h2 className=" text-base lg:pl-10 font-bold underline">
+            לעוד אירועים
+          </h2>
         </div>
         <div className="absolute z-10 top-0 left-0">
           <Image
