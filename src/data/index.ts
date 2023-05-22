@@ -156,11 +156,26 @@ import comminityDataimg4 from '../svg/services/4.svg';
 import comminityDataimg5 from '../svg/services/5.svg';
 
 export const communityData: any[] = [
-  comminityDataimg1,
-  comminityDataimg2,
-  comminityDataimg3,
-  comminityDataimg4,
-  comminityDataimg5,
+  {
+    image: comminityDataimg1,
+    name: 'פרויקטים לקהילה',
+  },
+  {
+    image: comminityDataimg2,
+    name: 'נטוורקינג',
+  },
+  {
+    image: comminityDataimg3,
+    name: 'חיבור למשקיעים',
+  },
+  {
+    image: comminityDataimg4,
+    name: 'הכשרה וקורסים',
+  },
+  {
+    image: comminityDataimg4,
+    name: 'שירותי ייעוץ בחינם',
+  },
 ];
 
 import temMangement1 from '../svg/team/management/manger1.svg';
